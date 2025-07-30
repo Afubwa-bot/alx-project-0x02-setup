@@ -10,3 +10,8 @@ export interface Item {
   description: string;
   price: number;
 }
+
+export interface CardProps {
+  title: string;
+  content: string;
+}
