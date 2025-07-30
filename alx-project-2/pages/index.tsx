@@ -1,10 +1,22 @@
-import Image from "next/image";
+import React from "react";
+import  Head from "next/head";
 
-const Homepage: React.FC = () => {
+const HomePage: React.FC = () => {
   return (
-    <div>
-    <h1>Welcome to My Next.js Project</h1>
+    <>
+    <Head>
+      <title>Welcome to ALX Project 2</title>
+      <meta name="description" content="This is the home page of the ALX Project 2." />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+
+    <div  className ="min-h-screen flex items-center justify-center bg-graey-100 ">
+      <h1 className="text-4xl font-bold text-gray-800">
+        Welcome to ALX Project 2
+      </h1>   
     </div>
+    </>
   );
 };
-export default Homepage;
+
+export default HomePage;
