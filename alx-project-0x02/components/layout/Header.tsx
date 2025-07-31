@@ -9,7 +9,6 @@ const Header: React.FC = () => {
         <nav>
           <ul className="flex space-x-4">
             {/* Use links components from client-side nav*/}
-            <li><Link href="/" className="hover:underline"> Home (Root)</Link></li>
             <li><Link href="/home" className="hover:underline">Home</Link></li>
             <li><Link href="/about" className="hover:underline">About</Link></li>
             <li><Link href="/contact" className="hover:underline">Contact</Link></li>
